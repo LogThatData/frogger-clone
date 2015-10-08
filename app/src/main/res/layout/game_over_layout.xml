@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:id="@+id/game_over"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="@string/game_over_text"
+        android:textColor="@color/white"
+        android:textSize="60sp"/>
+
+    <Button android:id="@+id/restart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again"
+        android:textSize="26sp"
+        android:textColor="@color/white"/>
+</LinearLayout>
